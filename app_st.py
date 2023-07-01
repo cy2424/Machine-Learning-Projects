@@ -10,11 +10,12 @@ with open("credit_card_logistic_regression_model.pkl", 'rb') as f:
 with open('OH_encoder.pkl', 'rb') as f:
     OH_encoder = pickle.load(f)
 
-@st.cache_data
+
 
 st.title("Chun Yew's Project - Credit Card Approval Prediction")
 st.image("""https://wallpapers.com/images/hd/stack-of-dark-colored-credit-cards-8kh9jkmkkurlact3.jpg""")
 st.header('Enter the characteristics of the applicants:')
+
 
 # Create a dictionary to hold user input
 user_input = {}
@@ -40,6 +41,7 @@ user_input['Married'] = 1 if user_input['Married'] == 'Yes' else 0
 user_input['BankCustomer'] = 1 if user_input['BankCustomer'] == 'Yes' else 0
 user_input['PriorDefault'] = 1 if user_input['PriorDefault'] == 'Yes' else 0
 user_input['Employed'] = 1 if user_input['Employed'] == 'Yes' else 0
+
 
 # Convert the user input into a DataFrame
 input_data = pd.DataFrame([user_input])
