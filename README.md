@@ -1,6 +1,9 @@
 # Credit Card Approval Prediction App
 This repository contains the code for deploying a machine learning model which predicts the approval status of a credit card application based on various input features. The app is built with Streamlit, an open-source Python library that allows you to create beautiful, interactive web apps for machine learning and data science.
 
+# Link to my streamlit app
+https://chunyew-machine-learning-projects.streamlit.app/
+
 # Overview
 The goal of this project is to predict whether a credit card application will be approved or not. The project is structured as follows:
 
