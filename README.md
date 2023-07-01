@@ -4,9 +4,9 @@ This repository contains the code for deploying a machine learning model which p
 # Overview
 The goal of this project is to predict whether a credit card application will be approved or not. The project is structured as follows:
 
-Data Preprocessing: We first load and preprocess the dataset, handling any missing or categorical values.
-Model Training: We train a logistic regression model on the processed dataset.
-Model Deployment: We use Streamlit to create a web app where users can input their own data and see the model's prediction for their data.
+Data Preprocessing: First, load and preprocess the dataset, handling any missing or categorical values.
+Model Training: Then, train a logistic regression model on the processed dataset.
+Model Deployment: Lastly, use Streamlit to create a web app where users can input their own data and see the model's prediction for their data.
 
 # App Interface
 The Streamlit app provides an intuitive interface where you can input the following parameters:
@@ -27,4 +27,4 @@ Income
 Upon entering these values, the app will output a prediction of whether a credit card application with these attributes would be approved or not.
 
 # Contact
-Please feel free to contact me if you have any questions about the project. Contributions to the project are also welcome.
+Please feel free to contact me if you have any questions about the project.
